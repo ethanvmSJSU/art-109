@@ -39,20 +39,44 @@ main {
   
 }
 
-.about-section, .portfolio-section, .contact-section {
+.about-section, 
+.portfolio-section, 
+.contact-section {
     margin-bottom: 5rem;
 }
 
-.about-content, .portfolio-content, .contact-content {
-    max-width: 60rem;
+.about-content, 
+.portfolio-content, 
+.contact-content {
+    max-width: 50rem;
     margin: 2rem auto;
 }
 
 .portfolio-item {
     margin-bottom: 3rem;
     background-color: rgb(26, 22, 31);
-    padding: 2rem;
-    text-align: center;
+    padding: 4rem;
+    text-align: justify;
+    border: 1px solid aliceblue;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.75);
+    
+}
+
+.portfolio-item h3 {
+    margin: 1rem 0;
+}
+
+.portfolio-item p {
+    font-size: 2rem;
+
+}
+
+portfolio-item img {
+    max-width: 100%; 
+    margin: 0 auto;
+    display: block;
+    border-radius: .5rem;
 }
 
 .about-section {
