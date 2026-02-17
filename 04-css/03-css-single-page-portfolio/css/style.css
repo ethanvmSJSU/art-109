@@ -1,0 +1,64 @@
+/* CSS resets */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* respecting user font size preferences */
+html {
+    font-size: 100%;
+}
+/* General CSS */
+
+body {
+  background: #1D1A1F;
+    background: linear-gradient(0deg, rgba(29, 26, 31, 1) 21%, rgba(67, 62, 74, 1) 60%);
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: aliceblue;
+}
+
+header {
+    padding: 6rem;
+    margin-bottom: 4rem;
+    background-color: rgba(67, 62, 74, 1);
+    text-align: center;
+    color: aliceblue;
+    border-bottom: aliceblue 5px solid;
+    background-image: url('https://i.pinimg.com/originals/f8/01/a3/f801a36277fef9657a41b4c5954506e1.gif');
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+main {
+  
+}
+
+.about-section, .portfolio-section, .contact-section {
+    margin-bottom: 5rem;
+}
+
+.about-content, .portfolio-content, .contact-content {
+    max-width: 60rem;
+    margin: 2rem auto;
+}
+
+.portfolio-item {
+    margin-bottom: 3rem;
+    background-color: rgb(26, 22, 31);
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-section {
+    background-color: rgba(67, 62, 74, 1);
+}
+.portfolio-section {
+    background-color: rgb(26, 22, 31);
+
+}
