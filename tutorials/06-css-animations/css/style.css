@@ -1,0 +1,88 @@
+body {
+    background-color: antiquewhite;
+    animation: change-color 10s infinite alternate;
+}
+
+@keyframes change-color {
+    0% {
+        background-color: antiquewhite;
+    }
+
+    50% {
+        background-color: rgb(128, 116, 116);
+    }
+
+    100% {
+        background-color: rgb(54, 50, 54);
+    }
+
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 80px auto;
+    animation: skew 3s infinite alternate;
+}
+
+@keyframes skew {
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+
+    100% {
+        transform: skew(30deg, 20deg);
+    }
+}
+
+.square {
+    background-color: rgb(85, 19, 57);
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 50px auto;
+    transition: transform 1s;
+}
+
+.square:hover {
+    background-color: rgb(29, 28, 116);
+    transform: rotate(30deg);
+}
+
+.button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 171, 1);
+    padding: 15px;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    transition: all .5s;
+}
+
+.button:hover {
+    background-color: rgb(123, 21, 136);
+    color: rgb(255, 255, 255);
+    transform: scale(1.5);
+}
+
+.button-div {
+    text-align: center;
+}
+
+.loading {
+    background-color: rgb(255, 255, 255);
+    animation: stretch 5s normal;
+    width: 80vw;
+}
+
+@keyframes stretch {
+    0% {
+        width: 100px;
+    }
+
+    100% {
+        width: 80vw;
+    }
+}
