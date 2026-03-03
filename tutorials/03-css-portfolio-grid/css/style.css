@@ -233,12 +233,6 @@ footer img {
     }
     }
 
-    footer img {
-        max-width: 1.5rem;
-        margin: 0 0.1rem;
-    }
-}
-
 /* ~~~~~~~~~~~~~~~~~~ flex styles ~~~~~~~~~~~~~~~~~~~ */
 
 .flex-container {
