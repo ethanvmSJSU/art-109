@@ -1,0 +1,37 @@
+.Gordon_Running {
+    position: absolute;
+    height: auto;
+    width: 550px;
+    right: 50px;
+}
+
+.jim-run-div {
+    margin: 50px auto;
+    max-width: 600px;
+    font-size: 3rem;
+}
+
+.jim-punched {
+    position: relative;
+    width: 575px;
+}
+
+.hockeypads {
+    display: block;
+    width: 640px;
+    max-width: 100%;
+    margin: 32px auto;
+}
+
+.hover-video,
+.click-video,
+#webcam {
+    display: block;
+    margin: 32px auto;
+}
+
+.im-not-wearing-hockey-pads{
+    margin: 50px auto;
+    max-width: 600px;
+    font-size: 3rem;
+}
