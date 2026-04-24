@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pulse Feed</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page-shell">
+		<header class="topbar">
+			<div class="brand-lockup">
+				<div class="brand-mark">P</div>
+				<div>
+					<p class="eyebrow">social playground</p>
+					<h1>Pulse Feed</h1>
+				</div>
+			</div>
+			<label class="searchbar" for="search-feed">
+				<span>Search</span>
+				<input id="search-feed" type="text" placeholder="Design, music, motion, AI art">
+			</label>
+			<div class="topbar-actions">
+				<button class="pill-button ghost">Upgrade</button>
+				<button class="avatar-chip">
+					<span class="avatar small coral">ET</span>
+					<span>@ethan</span>
+				</button>
+			</div>
+		</header>
+
+		<main class="feed-grid">
+			<aside class="sidebar left-panel">
+				<section class="panel intro-card">
+					<div class="cover-glow"></div>
+					<span class="avatar large lime">ET</span>
+					<h2>Ethan Torres</h2>
+					<p>Visual storyteller building bright interfaces, motion studies, and internet art experiments.</p>
+					<div class="stat-row">
+						<div>
+							<strong>18.4k</strong>
+							<span>followers</span>
+						</div>
+						<div>
+							<strong>217</strong>
+							<span>posts</span>
+						</div>
+						<div>
+							<strong>91</strong>
+							<span>saves</span>
+						</div>
+					</div>
+				</section>
+
+				<nav class="panel menu-card" aria-label="Primary">
+					<a class="menu-link active" href="#">For You</a>
+					<a class="menu-link" href="#">Following</a>
+					<a class="menu-link" href="#">Trending</a>
+					<a class="menu-link" href="#">Saved</a>
+					<a class="menu-link" href="#">Messages</a>
+				</nav>
+
+				<section class="panel launch-card">
+					<p class="eyebrow">creator prompt</p>
+					<h3>Post something in progress today.</h3>
+					<p>Drafts with rough edges usually pull stronger feedback than polished silence.</p>
+					<button class="pill-button bright">Create post</button>
+				</section>
+			</aside>
+
+			<section class="feed-column">
+				<article class="composer panel">
+					<div class="composer-row">
+						<span class="avatar medium sky">ET</span>
+						<div class="composer-input">
+							<p>What are you making right now?</p>
+							<span>Share a moodboard, mockup, or work-in-progress shot.</span>
+						</div>
+					</div>
+					<div class="composer-actions">
+						<button class="composer-chip">Photo</button>
+						<button class="composer-chip">Clip</button>
+						<button class="composer-chip">Poll</button>
+						<button class="pill-button bright">Post</button>
+					</div>
+				</article>
+
+				<article class="post panel feature-post">
+					<div class="post-header">
+						<div class="profile-lockup">
+							<span class="avatar medium coral">LM</span>
+							<div>
+								<h2>Lena Motion</h2>
+								<p>3 min ago · Brooklyn</p>
+							</div>
+						</div>
+						<button class="ghost-icon" aria-label="More options">•••</button>
+					</div>
+					<p class="post-copy">Took the color language from my latest poster series and turned it into a micro social app concept. Wanted it to feel like sunset reflections on chrome rather than another blue-and-white dashboard.</p>
+					<div class="post-media gradient-sunset">
+						<div class="floating-card">
+							<p class="eyebrow">new concept</p>
+							<h3>Neighborhood stories, remixed live.</h3>
+							<span>Swipe through moments, maps, and ambient sound.</span>
+						</div>
+					</div>
+					<div class="post-meta">
+						<span>1.2k likes</span>
+						<span>84 comments</span>
+						<span>19 shares</span>
+					</div>
+					<div class="post-actions">
+						<button class="action-button" data-like-button>
+							<span>♡</span>
+							<span data-like-count>1,248</span>
+						</button>
+						<button class="action-button">
+							<span>↺</span>
+							<span>Remix</span>
+						</button>
+						<button class="action-button">
+							<span>✉</span>
+							<span>Share</span>
+						</button>
+						<button class="action-button bookmark-button" data-bookmark-button>
+							<span>⌑</span>
+							<span>Save</span>
+						</button>
+					</div>
+				</article>
+
+				<article class="post panel split-post">
+					<div class="post-header">
+						<div class="profile-lockup">
+							<span class="avatar medium gold">AR</span>
+							<div>
+								<h2>Aria Rios</h2>
+								<p>28 min ago · Live session</p>
+							</div>
+						</div>
+						<span class="status-dot">LIVE</span>
+					</div>
+					<div class="split-layout">
+						<div>
+							<p class="post-copy">Streaming a build session for a typography-first portfolio. Testing oversized captions, grain textures, and loose card motion. Feedback from the chat has been pushing the layout in a much better direction.</p>
+							<div class="tag-row">
+								<span>#webdesign</span>
+								<span>#typography</span>
+								<span>#creativecoding</span>
+							</div>
+						</div>
+						<div class="mini-stack">
+							<div class="mini-card chart-card">
+								<span>Viewers</span>
+								<strong>4,208</strong>
+							</div>
+							<div class="mini-card comment-card">
+								<p>"The oversized type is working. Keep the asymmetry."</p>
+								<span>featured comment</span>
+							</div>
+						</div>
+					</div>
+					<div class="post-actions compact">
+						<button class="action-button">
+							<span>♡</span>
+							<span>892</span>
+						</button>
+						<button class="action-button">
+							<span>💬</span>
+							<span>64</span>
+						</button>
+						<button class="action-button">
+							<span>⤴</span>
+							<span>Share</span>
+						</button>
+					</div>
+				</article>
+
+				<article class="post panel photo-post">
+					<div class="post-header">
+						<div class="profile-lockup">
+							<span class="avatar medium plum">NK</span>
+							<div>
+								<h2>Noor Kline</h2>
+								<p>1 hr ago · Campus lab</p>
+							</div>
+						</div>
+						<button class="follow-chip">Following</button>
+					</div>
+					<p class="post-copy">Prototype for a student collective page. I wanted the cards to feel tactile, like printed flyers pinned over a glass wall.</p>
+					<div class="mosaic-grid">
+						<div class="mosaic-tile tall mint"></div>
+						<div class="mosaic-tile peach"></div>
+						<div class="mosaic-tile blue"></div>
+						<div class="mosaic-tile wide ink"></div>
+					</div>
+					<div class="post-actions compact">
+						<button class="action-button">
+							<span>♡</span>
+							<span>531</span>
+						</button>
+						<button class="action-button">
+							<span>💬</span>
+							<span>37</span>
+						</button>
+						<button class="action-button">
+							<span>⌑</span>
+							<span>Save</span>
+						</button>
+					</div>
+				</article>
+			</section>
+
+			<aside class="sidebar right-panel">
+				<section class="panel trend-card">
+					<p class="eyebrow">trending now</p>
+					<ul class="trend-list">
+						<li>
+							<strong>Glassmorphism is back</strong>
+							<span>12.8k posts today</span>
+						</li>
+						<li>
+							<strong>Portfolio teardown threads</strong>
+							<span>8.3k posts today</span>
+						</li>
+						<li>
+							<strong>Experimental nav systems</strong>
+							<span>5.6k posts today</span>
+						</li>
+					</ul>
+				</section>
+
+				<section class="panel friends-card">
+					<div class="section-title-row">
+						<h3>People to follow</h3>
+						<a href="#">Refresh</a>
+					</div>
+					<div class="friend-row">
+						<div class="profile-lockup">
+							<span class="avatar small sky">MJ</span>
+							<div>
+								<strong>Milo James</strong>
+								<p>Motion systems</p>
+							</div>
+						</div>
+						<button class="follow-chip">Follow</button>
+					</div>
+					<div class="friend-row">
+						<div class="profile-lockup">
+							<span class="avatar small coral">SK</span>
+							<div>
+								<strong>Sora Kim</strong>
+								<p>Poster design</p>
+							</div>
+						</div>
+						<button class="follow-chip">Follow</button>
+					</div>
+					<div class="friend-row">
+						<div class="profile-lockup">
+							<span class="avatar small lime">JT</span>
+							<div>
+								<strong>Jules Tran</strong>
+								<p>3D experiments</p>
+							</div>
+						</div>
+						<button class="follow-chip">Follow</button>
+					</div>
+				</section>
+
+				<section class="panel event-card">
+					<p class="eyebrow">up next</p>
+					<h3>Feed Futures</h3>
+					<p>A design critique on social interfaces, attention, and playful community spaces.</p>
+					<div class="event-pill-row">
+						<span>Thu 7:30 PM</span>
+						<span>Online</span>
+					</div>
+				</section>
+			</aside>
+		</main>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
